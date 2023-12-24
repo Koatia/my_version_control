@@ -1,0 +1,108 @@
+{
+	"python.terminal.activateEnvInCurrentTerminal": true, // автоматически активировать виртуальное окружение
+	"files.autoSave": "onFocusChange", // автоматически сохранять файл при переключенни на другое окно
+	// - Для корректной работы "Prettier" -
+	"editor.formatOnPaste": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.useTabs": true,
+	"prettier.semi": false,
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"prettier.arrowParens": "avoid",
+	// - Размер шрифта кода -
+	"editor.fontSize": 16,
+	// - Размер шрифта терминала -
+	"terminal.integrated.fontSize": 16,
+	// - Отключаем не нужные Хлебные крошки -
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showConstructors": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showEnums": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showInterfaces": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showModules": false,
+	"breadcrumbs.showNamespaces": false,
+	"breadcrumbs.showNull": false,
+	"breadcrumbs.showNumbers": false,
+	"breadcrumbs.showObjects": false,
+	"breadcrumbs.showOperators": false,
+	"breadcrumbs.showPackages": false,
+	"breadcrumbs.showProperties": false,
+	"breadcrumbs.showStrings": false,
+	"breadcrumbs.showStructs": false,
+	"breadcrumbs.showTypeParameters": false,
+	"breadcrumbs.showVariables": false,
+	// - Отключаем Мини Карту кода -
+	"editor.minimap.renderCharacters": false,
+	"editor.minimap.enabled": false,
+	// - Общие настройки "про которые я говорил не спрашивать"
+	"diffEditor.wordWrap": "on",
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"editor.tabSize": 4, // размер таба
+	"editor.formatOnSave": true, // компактные папки
+	"editor.smoothScrolling": true, // плавный скролл
+	"workbench.list.smoothScrolling": true, // плавный скролл
+	"terminal.integrated.smoothScrolling": true, // плавный скролл в терминале
+	"editor.cursorBlinking": "expand", // мигающей курсор
+	"terminal.integrated.cursorBlinking": true, // мигающей курсор
+	"editor.glyphMargin": false,
+	"editor.linkedEditing": true,
+	"editor.padding.top": 15, // отступ сверху кода
+	// - Фикс бага "json ошибка" -
+	"http.proxySupport": "fallback",
+	// - Фикс бага Emmet -
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact"
+	},
+	"[csharp]": {
+		"editor.defaultFormatter": "ms-dotnettools.csharp"
+	},
+	"telemetry.telemetryLevel": "off",
+	"workbench.startupEditor": "none",
+	"notebook.lineNumbers": "on",
+	"notebook.formatOnCellExecution": true,
+	"notebook.formatOnSave.enabled": true,
+	"omnisharp.organizeImportsOnFormat": true,
+	"[python]": {
+		"editor.defaultFormatter": "eeyore.yapf"
+	},
+	// - Для корректной работы "Code Spell Checker" + "Russian - Code Spell Checker" -
+	"cSpell.language": "en,ru",
+	"cSpell.autoFormatConfigFile": true,
+	"html.format.indentHandlebars": true,
+	"css.format.spaceAroundSelectorSeparator": true,
+	"scss.format.spaceAroundSelectorSeparator": true,
+	"html.format.indentInnerHtml": true,
+	"html.format.templating": true,
+	"python.analysis.autoFormatStrings": true,
+	"jupyter.enableExtendedKernelCompletions": true,
+	"cSpell.caseSensitive": true,
+	"cSpell.showAutocompleteSuggestions": true,
+	"csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
+	"csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
+	"csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
+	"csharp.inlayHints.enableInlayHintsForTypes": true,
+	"dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
+	"dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
+	"dotnet.inlayHints.enableInlayHintsForParameters": true,
+	"dotnet.inlayHints.suppressInlayHintsForParametersThatDifferOnlyBySuffix": true,
+	"dotnet.inlayHints.suppressInlayHintsForParametersThatMatchArgumentName": true,
+	"dotnet.inlayHints.suppressInlayHintsForParametersThatMatchMethodIntent": true,
+	"dotnet.server.useOmnisharp": true,
+	"editor.formatOnType": true,
+	"csharp.suppressDotnetInstallWarning": true,
+	"csharp.suppressProjectJsonWarning": true
+}
